@@ -1,0 +1,33 @@
+{
+  "name": "pipapong",
+  "version": "1.0.0",
+  "description": "PiPaPo NG™",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florianb/pipapong.git"
+  },
+  "keywords": [
+    "pi",
+    "pa",
+    "pong"
+  ],
+  "author": "florian.breisch@mindkeeper.solutions",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/florianb/pipapong/issues"
+  },
+  "homepage": "https://github.com/florianb/pipapong#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.5",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
